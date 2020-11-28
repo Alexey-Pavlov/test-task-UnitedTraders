@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>United Traders Test Task</title>
+    <link rel="stylesheet" href="./css/dist/main.css" />
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/bootstrap-grid.css">
+    <link rel="stylesheet" href="./css/bootstrap-reboot.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container nav-container">
+            <div class="row menu-bar">
+                <div class="col-lg-3 logo">
+                    <a href="#">
+                        <img src="./img/logo.svg" alt="Logo" class="logo">
+                    </a>
+                </div>
+                <div class="col-lg-6 ml-auto align-self-center">
+                    <nav>
+                        <ul class="d-flex justify-content-start menu menu__navigation">
+                            <li class="menu__item icon">
+                                <a href="#home" class="menu__item--products">Products</a></li>
+                            <li class="menu__item">
+                                <a href="#news" class="menu__item--news">News & Events</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#support" class="menu__item--support">Support</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#contacts" class="menu__item--contacts">Contacts</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-3 align-self-center">
+                    <nav class="nav-client">
+                        <ul class="menu menu__client d-flex">
+                            <li class="menu__item">
+                                <a href="#login" class="menu__client--login">Login</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#buy" class="menu__client--buy">Buy Now</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="row justify-content-between align-items-center mobile-bar">
+                <div class="d-lg-none logo navbar-brand">
+                    <a href="#">
+                        <img src="./img/logo.svg" alt="Logo" class="logo">
+                    </a>
+                </div>
+                <div id="menu-toggle" class="menu-icon">
+                    <div class="menu-icon-line"></div>
+                </div>
+                <div class="mobile-nav" id="mobile-nav">
+                    <ul class="mobile-nav__list">
+                        <li class="mobile-nav__item"><a href="#home" class="mobile-nav__link">Products</a></li>
+                        <li class="mobile-nav__item"><a href="#news" class="mobile-nav__link">News & Events</a></li>
+                        <li class="mobile-nav__item"><a href="#support" class="mobile-nav__link">Support</a></li>
+                        <li class="mobile-nav__item"><a href="#contacts" class="mobile-nav__link">Contacts</a></li>
+                        <li class="mobile-nav__item"><a href="#login" class="mobile-nav__link">Login</a></li>
+                        <li class="mobile-nav__item"><a href="#buy" class="mobile-nav__link">Buy Now</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row align-items-center flex-column">
+                <div class="col-auto">
+                    <h1 class="title">WE SOLVE <br>
+                        YOUR PROBLEMS</h1>
+                </div>
+                <div class="col-auto">
+                    <p class="main-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nec accumsan
+                        velit. Ut gravida id sem id sodales. <br> Aenean quis enim dui. Vestibulum ullamcorper vel urna
+                        quis congue.</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="section__first">
+            <div class="container">
+                <h5 class="section-title">Etiam ac nisl ac quam sodales scelerisque elementum quis purus.</h5>
+                <div class="row cards-holder">
+                    <div class="col-lg-4 col-12">
+                        <!-- Card -->
+                        <div class="card card--first">
+                            <div class="img-wrap">
+                                <img src="./img/icons/icon_01.png" alt="" class="card__icon">
+                            </div>
+
+                            <h6 class="card__title">Donec efficitur molestie</h6>
+                            <p class="card__text">Nulla pretium nunc in nulla placerat, sit amet porttitor enim
+                                ullamcorper.
+                                Curabitur ex erat, euismod ac vestibulum vel, viverra non lorem.</p>
+                            <a href="" class="card__link">Learn More</a>
+                        </div>
+
+
+                        <!-- // Card -->
+                    </div>
+                    <div class="col-lg-4 col-12">
+                        <!-- Card -->
+                        <div class="card card--middle">
+                            <div class="img-wrap">
+                                <img src="./img/icons/icon_02.png" alt="" class="card__icon">
+                            </div>
+
+                            <h6 class="card__title">Mauris interdum venenatis</h6>
+                            <p class="card__text">Vivamus cursus ante eu orci rutrum, vitae viverra ante dapibus.
+                                Vivamus porta molestie turpis, quis elementum nisi egestas eget.</p>
+                            <a href="" class="card__link">Learn More</a>
+                        </div>
+                        <!-- // Card -->
+                    </div>
+                    <div class="col-lg-4 col-12">
+                        <!-- Card -->
+                        <div class="card card--last">
+                            <div class="img-wrap">
+                                <img src="./img/icons/icon_03.png" alt="" class="card__icon">
+                            </div>
+
+                            <h6 class="card__title">Cras sit amet</h6>
+                            <p class="card__text">Fusce suscipit, ante at imperdiet vehicula, ex augue feugiat enim, sed
+                                faucibus sem tortor quis turpis. Mauris lacinia neque id augue efficitur, ut feugiat
+                                massa efficitur.</p>
+                            <a href="" class="card__link">Learn More</a>
+                        </div>
+                        <!-- // Card -->
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="section__second">
+            <div class="container">
+                <div class="row justify-content-center cards-holder">
+                    <div class="col-auto">
+                        <h5 class="section-title">Etiam ac nisl ac quam sodales scelerisque elementum quis purus.</h5>
+                        <p class="section-text">Integer bibendum turpis sit amet pretium commodo. Cras justo elit,
+                            dapibus
+                            at
+                            viverra non, dapibus vitae est. Morbi facilisis mi non iaculis porttitor. Phasellus a nibh a
+                            lacus
+                            dignissim pharetra. Vivamus ullamcorper finibus mauris, sit amet volutpat enim sollicitudin
+                            sed.
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <!-- Card -->
+                        <div class="card card--first">
+                            <div class="img-wrap">
+                                <img src="./img/icons/icon_04.png" alt="" class="card__icon">
+                            </div>
+
+                            <h6 class="card__title">Proin felis eros </h6>
+                            <p class="card__text">Iverra sed eros id, eleifend maximus tortor</p>
+                        </div>
+                        <!-- // Card -->
+                    </div>
+                    <div class="col-lg-4">
+                        <!-- Card -->
+                        <div class="card">
+                            <div class="img-wrap">
+                                <img src="./img/icons/icon_05.png" alt="" class="card__icon">
+                            </div>
+
+                            <h6 class="card__title">Suspendisse potenti</h6>
+                            <p class="card__text">Vestibulum mi risus, aliquam vitae efficitur quis</p>
+                        </div>
+                        <!-- // Card -->
+                    </div>
+                    <div class="col-lg-4">
+                        <!-- Card -->
+                        <div class="card">
+                            <div class="img-wrap">
+                                <img src="./img/icons/icon_06.png" alt="" class="card__icon">
+                            </div>
+
+                            <h6 class="card__title">Fusce pretium enim</h6>
+                            <p class="card__text">Quisque at dui nunc. Curabitur sodales, turpis at luctus suscipit,
+                                nisl leo dignissim turpis</p>
+                        </div>
+                        <!-- // Card -->
+                    </div>
+                    <div class="col-lg-4">
+                        <!-- Card -->
+                        <div class="card">
+                            <div class="img-wrap">
+                                <img src="./img/icons/icon_07.png" alt="" class="card__icon">
+                            </div>
+
+                            <h6 class="card__title">Vivamus urna eros</h6>
+                            <p class="card__text">Fusce facilisis nunc a urna lacinia, nec sagittis felis efficitur.
+                                Phasellus commodo porttitor odio</p>
+                        </div>
+                        <!-- // Card -->
+                    </div>
+                    <div class="col-lg-4">
+                        <!-- Card -->
+                        <div class="card card--fifth">
+                            <div class="img-wrap">
+                                <img src="./img/icons/icon_08.png" alt="" class="card__icon card__icon--long">
+                            </div>
+
+                            <h6 class="card__title">Maecenas congue nisi</h6>
+                            <p class="card__text">Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                                Curabitur vulputate arcu nisi</p>
+                        </div>
+                        <!-- // Card -->
+                    </div>
+                    <div class="col-lg-4 last">
+                        <!-- Card -->
+                        <div class="card card--last">
+                            <div class="img-wrap">
+                                <img src="./img/icons/icon_09.png" alt="" class="card__icon">
+                            </div>
+
+                            <h6 class="card__title">Nullam purus velit</h6>
+                            <p class="card__text">Praesent ac turpis sit amet ex euismod congue vitae sit amet risus</p>
+                        </div>
+                        <!-- // Card -->
+                    </div>
+                    <button class="btn">View All Our Products</button>
+                </div>
+
+            </div>
+        </section>
+        <section class="section__third">
+            <div class="container">
+                <div class="row">
+                    <div class="col-auto">
+                        <h5 class="section-title">Wordlwide recognition</h5>
+                        <p class="section-text">Integer bibendum turpis sit amet pretium commodo. Cras justo elit,
+                            dapibus
+                            at
+                            viverra non, dapibus vitae est. </p>
+
+                        <p class="section-text section-text--last">Fusce pretium enim sit amet elementum eleifend.
+                            Quisque at dui nunc.
+                            Curabitur sodales,
+                            turpis at
+                            luctus
+                            suscipit, nisl leo dignissim turpis, quis blandit justo nulla sed nisi. Vivamus urna eros,
+                            malesuada non
+                            massa sed, vestibulum maximus dui. Fusce facilisis nunc a urna lacinia, nec sagittis felis
+                            efficitur.
+                            Phasellus commodo porttitor odio, eu commodo nisi vehicula ut. Maecenas congue nisi lorem,
+                            et
+                            maximus
+                            ante vestibulum eu. Vivamus non imperdiet ex.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="images">
+                            <img src="./img/image_01.png" alt="First Image" class="img img--first">
+                            <img src="./img/image_02.png" alt="Second Image" class="img img--second">
+                            <img src="./img/image_03.png" alt="Third Image" class="img img--third">
+                            <img src="./img/image_04.png" alt="First Image" class="img img--fourth">
+                            <img src="./img/image_05.png" alt="First Image" class="img img--fifth">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row links">
+                <div class="col links">
+                    <a href="#" class="link">PRIVACY POLICY</a>
+                    <a href="#" class="link">ABOUT US</a>
+                    <a href="#" class="link">SUPPORT</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col icons">
+                    <ul>
+                        <li>
+                            <div class="icon__wrap">
+                                <a href="#" class="icon"><img src="./img/Group.svg" alt=""></a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon__wrap">
+                                <a href="#" class="icon"><img src="./img//Group (1).svg" alt=""></a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon__wrap">
+                                <a href="#" class="icon"><img src="./img/instagram.svg" alt=""></a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="wrap">
+
+                    </div>
+
+                    <div class="wrap">
+
+                    </div>
+
+                    <div class="wrap">
+
+                    </div>
+
+                </div>
+            </div>
+
+            <p class="copyright">Copyright © 1999 - 2019</p>
+        </div>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
