@@ -602,19 +602,17 @@ footer {
         justify-content: center;
         background-color: rgba(255, 255, 255, 0.3);
         border-radius: 50%;
+        transition: all 0.3s ease-in;
+        &:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
     }
 
     .icon {
         cursor: pointer;
 
-        transition: all 0.3s ease-in;
-
         &:last-child {
             margin-right: 0;
-        }
-
-        &:hover {
-            background-color: rgba(255, 255, 255, 0.2);
         }
     }
 
